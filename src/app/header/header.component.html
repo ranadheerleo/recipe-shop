@@ -1,0 +1,27 @@
+<nav class="navbar navbar-expand-sm navbar-dark" style="background: indianred">
+  <!--<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav-content" aria-controls="nav-content" aria-expanded="false" aria-label="Toggle navigation">-->
+    <!--<span class="navbar-toggler-icon"></span>-->
+  <!--</button>-->
+
+  <!-- Brand -->
+  <a class="navbar-brand" routerLink="/">Recipe Book</a>
+
+  <!-- Links -->
+   <!--class="navbar navbar-expand-sm bg-light">-->
+    <ul class="navbar-nav">
+      <li routerLinkActive="active"><a class="nav-link" routerLink="/recipes">Recipes</a></li>
+      <li routerLinkActive="active" ><a class="nav-link" routerLink="/shoppingList">Shopping-List</a></li>
+
+    <!--<ul class="navbar-nav">-->
+      <!-- Dropdown -->
+      <li class="nav-item dropdown">
+        <a style="cursor: pointer;" class="nav-link dropdown-toggle"  href="#" id="navbardrop" data-toggle="dropdown"> Manage </a>
+        <div class="dropdown-menu">
+          <a class="dropdown-item" style="cursor: pointer;" >Save Data</a>
+          <a class="dropdown-item" style="cursor: pointer">Fetch Data</a>
+        </div>
+      </li>
+    </ul>
+</nav>
+
+
